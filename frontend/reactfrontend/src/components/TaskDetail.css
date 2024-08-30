@@ -1,0 +1,16 @@
+/* TaskDetail.css */
+
+.task-detail {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.task-detail h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.task-detail p {
+    margin: 10px 0;
+    color: #666;
+}

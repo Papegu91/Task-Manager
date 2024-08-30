@@ -1,0 +1,35 @@
+/* TaskList.css */
+
+.task-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.task-list h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.task-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+    background-color: #f0f0f0;
+}
+
+.task-item h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #000;
+}
+
+.task-item p {
+    margin: 5px 0;
+    color: #666;
+}
