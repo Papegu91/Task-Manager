@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
 import AuthContext from '../context/AuthProvider';
+import './CreateTask.css'; 
 
 const CreateTask = () => {
     const { authState } = useContext(AuthContext);

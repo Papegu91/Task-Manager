@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import AuthContext from '../context/AuthProvider';
-import './Navbar.css'; // Import the CSS file if needed
+import './Navbar.css'; 
 
 const Navbar = () => {
     const { logout } = useContext(AuthContext);
@@ -9,7 +9,7 @@ const Navbar = () => {
 
     const handleLogout = () => {
         logout();
-        navigate('/login'); // Redirect to login page after logout
+        navigate('/login'); 
     };
 
     return (

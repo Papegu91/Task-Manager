@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Authcontext from '../context/AuthProvider';
+import './CreateTag.css';
  
 const CreateTag = () => {
     const [name, setName] = useState('');

@@ -15,7 +15,7 @@ function App() {
     return (
         <AuthProvider>
             <Router>
-                <Navbar /> {/* Add Navbar here */}
+                <Navbar /> 
                 <Routes>
                     <Route path="/register" element={<Register />} />
                     <Route path="/login" element={<Login />} />

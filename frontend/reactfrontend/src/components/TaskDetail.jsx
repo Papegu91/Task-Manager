@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import AuthContext from '../context/AuthProvider';
-import './TaskDetail.css'; // Import the CSS file if needed
+import './TaskDetail.css'; 
 
 const TaskDetail = () => {
     const { taskId } = useParams();

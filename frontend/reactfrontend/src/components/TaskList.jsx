@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AuthContext from '../context/AuthProvider';
-import './TaskList.css'; // Import the CSS file
+import './TaskList.css'; 
 
 const TaskList = () => {
     const { authState } = useContext(AuthContext);
